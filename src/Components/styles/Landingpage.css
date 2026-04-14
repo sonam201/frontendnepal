@@ -1,0 +1,47 @@
+.bg-responsive {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-responsive1 {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image1 {
+  background-image: url("../../Images/backgroundband.jpg");
+}
+
+.bg-image2 {
+  background-image: url("../../Images/background2.jpg");
+}
+
+@media (max-width: 926px) {
+  .nav-links {
+    transition: all 0.5s ease-out;
+    color: orange;
+  }
+}
+
+@media (max-width: 920px) {
+  .bg-responsive {
+    height: 60vh;
+    background-size: cover;
+  }
+  .bg-responsive1 {
+    height: 60vh;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-responsive {
+    height: 40vh;
+    background-size: cover;
+  }
+  .bg-responsive1 {
+    height: 40vh;
+    background-size: cover;
+  }
+}
